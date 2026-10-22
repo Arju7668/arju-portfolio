@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arju Devi | Personal Portfolio</title>
+
+    <meta name="description"
+          content="Explore Arju Devi's portfolio, skills, education and live projects in web development, digital marketing, cloud technology and education.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#internship" class="nav-link">Internship</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-cta">Let's Connect <span>↗</span></a>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        PERSONAL PORTFOLIO
+                    </div>
+
+                    <p class="hero-greeting">Hello, I'm</p>
+
+                    <h1>
+                        Arju <span class="gradient-text">Devi.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Building Digital Experiences
+                        <span class="gradient-text">That Matter.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm a BCA student passionate about creating modern
+                        digital experiences through web development, creative
+                        problem-solving and technology.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="#about" class="btn btn-secondary">
+                            More About Me
+                        </a>
+                    </div>
+
+                    <div class="hero-highlights">
+                        <div class="highlight">
+                            <span class="highlight-number">04</span>
+                            <span class="highlight-label">Featured Projects</span>
+                        </div>
+
+                        <div class="highlight-divider"></div>
+
+                        <div class="highlight">
+                            <span class="highlight-number">BCA</span>
+                            <span class="highlight-label">Education</span>
+                        </div>
+
+                        <div class="highlight-divider"></div>
+
+                        <div class="highlight">
+                            <span class="highlight-number">100%</span>
+                            <span class="highlight-label">Passion to Learn</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="photo-orbit orbit-one"></div>
+                    <div class="photo-orbit orbit-two"></div>
+
+                    <div class="photo-card">
+                        <div class="photo-top-label">
+                            <span class="photo-status"></span>
+                            MY PROFILE
+                        </div>
+
+                        <div class="profile-image-wrapper">
+                            <img
+                                src="images/arju.jpeg"
+                                alt="Arju Devi - Personal Portfolio"
+                                class="profile-image"
+                                id="profileImage"
+                            >
+
+                            <div class="image-placeholder" id="imagePlaceholder">
+                                <span>AD</span>
+                                <p>Add your photo</p>
+                                <small>images/arju.jpeg</small>
+                            </div>
+                        </div>
+
+                        <div class="photo-info">
+                            <div>
+                                <h3>Arju Devi</h3>
+                                <p>BCA · Shobhit University</p>
+                            </div>
+                            <span class="profile-arrow">↗</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-top">
+                        <span class="floating-icon blue-icon">&lt;/&gt;</span>
+                        <div>
+                            <strong>Web Development</strong>
+                            <small>Creating for the web</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <span class="floating-icon purple-icon">✦</span>
+                        <div>
+                            <strong>Creative Mindset</strong>
+                            <small>Ideas into experiences</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span></span> Scroll to explore
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">01 — ABOUT ME</span>
+                    <h2>A little about <span class="gradient-text">myself.</span></h2>
+                    <p>My journey, interests and the things I'm passionate about.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-main glass-card">
+                        <span class="about-icon">✦</span>
+
+                        <h3>Curious mind.<br>Creative approach.</h3>
+
+                        <p>
+                            I'm Arju Devi, a Bachelor of Computer Applications
+                            student at Shobhit University, Gangoh. I enjoy
+                            exploring technology and building websites that
+                            combine functionality with thoughtful design.
+                        </p>
+
+                        <p>
+                            Through my projects, I'm developing practical skills,
+                            learning new technologies and improving my ability
+                            to turn ideas into useful digital experiences.
+                        </p>
+
+                        <a href="#projects" class="text-link">
+                            Discover my projects <span>→</span>
+                        </a>
+
+                        <a href="resume/Arju-Devi-Resume.pdf"
+   class="btn btn-primary"
+   download>
+    Download My Resume
+    <span>↓</span>
+</a>
+                    </div>
+
+                    <div class="about-side">
+
+                        <div class="glass-card about-mini-card">
+                            <span class="mini-card-icon">⌘</span>
+                            <h3>Development</h3>
+                            <p>Building functional and responsive websites.</p>
+                        </div>
+
+                        <div class="glass-card about-mini-card">
+                            <span class="mini-card-icon purple-text">◇</span>
+                            <h3>Creative Thinking</h3>
+                            <p>Exploring ideas and improving digital experiences.</p>
+                        </div>
+
+                        <div class="glass-card about-mini-card">
+                            <span class="mini-card-icon">↗</span>
+                            <h3>Continuous Learning</h3>
+                            <p>Growing my skills through practical projects.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">02 — MY SKILLS</span>
+                    <h2>Tools I work <span class="gradient-text">with.</span></h2>
+                    <p>Technologies I've learned or worked with in my projects.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol html-symbol">5</span>
+                        <h3>HTML</h3>
+                        <p>Web Structure</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol css-symbol">3</span>
+                        <h3>CSS</h3>
+                        <p>Styling & Layout</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol js-symbol">JS</span>
+                        <h3>JavaScript</h3>
+                        <p>Web Interactivity</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol php-symbol">PHP</span>
+                        <h3>PHP</h3>
+                        <p>Server-Side Basics</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol mysql-symbol">DB</span>
+                        <h3>MySQL</h3>
+                        <p>Database Management</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol python-symbol">Py</span>
+                        <h3>Python</h3>
+                        <p>Programming</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol java-symbol">J</span>
+                        <h3>Java</h3>
+                        <p>Programming</p>
+                    </div>
+
+                    <div class="skill-card glass-card">
+                        <span class="skill-symbol cpp-symbol">C++</span>
+                        <h3>C / C++</h3>
+                        <p>Programming Fundamentals</p>
+                    </div>
+
+                </div>
+
+                <p class="skills-note">
+                    Skills are presented as a learning and project experience
+                    overview, not as proficiency certifications.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">03 — SELECTED WORK</span>
+                    <h2>Projects I'm <span class="gradient-text">proud of.</span></h2>
+                    <p>A selection of digital projects I've worked on.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card glass-card">
+
+                        <div class="project-preview digital-preview">
+                            <div class="preview-window">
+                                <div class="window-controls">
+                                    <i></i><i></i><i></i>
+                                </div>
+
+                                <div class="preview-content">
+                                    <span class="preview-eyebrow">GROW YOUR BRAND</span>
+                                    <h3>Digital<br>Experiences.</h3>
+                                    <div class="preview-line"></div>
+                                    <div class="preview-bars">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span class="project-number">01</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-category">DIGITAL MARKETING</div>
+                            <h3>Digital Marketing Website</h3>
+
+                            <p>
+                                A digital marketing website focused on presenting
+                                marketing services and creating a professional
+                                online brand presence.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://digitalmarketing.idyam.in"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Live Project <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-card">
+
+                        <div class="project-preview cloud-preview">
+                            <div class="cloud-illustration">
+                                <div class="cloud-circle">☁</div>
+                                <div class="cloud-file file-one">PDF</div>
+                                <div class="cloud-file file-two">DOC</div>
+                                <div class="cloud-file file-three">IMG</div>
+                            </div>
+
+                            <span class="project-number">02</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-category">CLOUD TECHNOLOGY</div>
+                            <h3>IDYAM Cloud</h3>
+
+                            <p>
+                                A cloud storage project designed around file
+                                management and a clean, accessible user experience.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Web</span>
+                            </div>
+
+                            <a href="https://cloud.idyam.in"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Live Project <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass-card">
+
+                        <div class="project-preview webdev-preview">
+                            <div class="code-window">
+                                <div class="window-controls">
+                                    <i></i><i></i><i></i>
+                                </div>
+
+                                <div class="code-lines">
+                                    <p><span>&lt;html&gt;</span></p>
+                                    <p class="code-indent"><span>&lt;h1&gt;</span></p>
+                                    <p class="code-indent-two">Build Something Great</p>
+                                    <p class="code-indent"><span>&lt;/h1&gt;</span></p>
+                                    <p><span>&lt;/html&gt;</span></p>
+                                </div>
+                            </div>
+
+                            <span class="project-number">03</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-category">WEB DEVELOPMENT</div>
+                            <h3>IDYAM Web Development</h3>
+
+                            <p>
+                                A web development agency website showcasing
+                                digital services, technologies and project work.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>PHP</span>
+                            </div>
+
+                            <a href="https://webdev.idyam.in"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Live Project <span>↗</span>
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card glass-card">
+
+                        <div class="project-preview gurukul-preview">
+                            <div class="book-illustration">
+                                <div class="book book-back"></div>
+                                <div class="book book-front">
+                                    <span>POCKET</span>
+                                    <strong>GURUKUL</strong>
+                                    <i>Every story begins here.</i>
+                                </div>
+                            </div>
+
+                            <span class="project-number">04</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="project-category">EDUCATION & STORYTELLING</div>
+                            <h3>Pocket Gurukul</h3>
+
+                            <p>
+                                An educational and storytelling application
+                                promotional website presenting the app and
+                                its available features.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://pocketgurukul.idyam.in"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Live Project <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section --><section id="internship" class="internship-section">
+    <div class="section-heading">
+        <p class="section-subtitle">PROFESSIONAL EXPERIENCE</p>
+        <h2>My <span>Internship</span></h2>
+        <p>Building practical skills through real-world experience.</p>
+    </div><div class="internship-card">
+    <div class="internship-icon">💼</div>
+
+    <div class="internship-details">
+        <span class="internship-status">Currently Working</span>
+        <h3>Software Developer Intern</h3>
+        <h4>IDYAM Technologies Services and Pvt. Ltd.</h4>
+        <p class="internship-date">5 June 2026 – Present</p>
+        <p>
+            Gaining practical experience in software development,
+            improving technical skills, and working on web development projects.
+        </p>
+    </div>
+</div>
+
+</section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">04 — EDUCATION</span>
+                    <h2>My learning <span class="gradient-text">journey.</span></h2>
+                    <p>The academic foundation behind my technology journey.</p>
+                </div>
+
+                <div class="education-card glass-card">
+
+                    <div class="education-icon">🎓</div>
+
+                    <div class="education-content">
+                        <span class="education-status">ACADEMIC BACKGROUND</span>
+
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+
+                        <p class="university-name">
+                            Shobhit University, Gangoh
+                        </p>
+
+                        <p class="education-description">
+                            Studying computer applications, programming
+                            fundamentals, databases and web technologies.
+                        </p>
+                    </div>
+
+                    <div class="education-badge">BCA</div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div class="contact-glow"></div>
+
+                    <span class="section-label">05 — GET IN TOUCH</span>
+
+                    <h2>
+                        Have an idea?<br>
+                        <span class="gradient-text">Let's connect.</span>
+                    </h2>
+
+                    <p>
+                        I'm interested in learning, collaborating and exploring
+                        opportunities to build meaningful digital experiences.
+                    </p>
+
+                    <a href="mailto:arjugorshi@gmail.com"
+   class="btn btn-primary contact-button">
+    Contact Me <span>↗</span>
+</a>
+
+<div class="contact-details">
+    <p>
+        📧 <a href="mailto:arjugorshi@gmail.com">
+            arjugorshi@gmail.com
+        </a>
+    </p>
+
+    <p>
+        📱 <a href="tel:+917668167813">
+            +91-7668167813
+        </a>
+    </p>
+
+    <p>📍 Saharanpur, Uttar Pradesh, India</p>
+</div>
+
+                    <div class="contact-note">
+                        Open to meaningful conversations and opportunities.
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-bracket">&lt;</span>AD<span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <p>Designed with purpose. Built with passion.</p>
+
+            <a href="#home" class="back-to-top">
+                Back to top ↑
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
+            © <span id="currentYear"></span> Arju Devi. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
