@@ -1,0 +1,111 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: projects
+    label: Projects
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Project Name
+        type: string
+        required: true
+      - name: description
+        label: Project Description
+        type: text
+      - name: technologies
+        label: Technologies
+        type: string
+        list: true
+      - name: image
+        label: Project Image
+        type: image
+      - name: live_url
+        label: Live Project URL
+        type: string
+      - name: github_url
+        label: GitHub URL
+        type: string
+
+  - name: education
+    label: Education
+    type: file
+    path: data/education.json
+    format: json
+    list: true
+    fields:
+      - name: qualification
+        label: Degree or Qualification
+        type: string
+        required: true
+      - name: institution
+        label: School or College
+        type: string
+      - name: year
+        label: Year
+        type: string
+      - name: result
+        label: Percentage or CGPA
+        type: string
+      - name: description
+        label: Description
+        type: text
+
+  - name: internships
+    label: Internship
+    type: file
+    path: data/internships.json
+    format: json
+    list: true
+    fields:
+      - name: company
+        label: Company Name
+        type: string
+        required: true
+      - name: designation
+        label: Designation
+        type: string
+      - name: duration
+        label: Duration
+        type: string
+      - name: description
+        label: Description
+        type: text
+
+  - name: skills
+    label: Skills
+    type: file
+    path: data/skills.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Skill Name
+        type: string
+        required: true
+
+  - name: profile
+    label: Profile Settings
+    type: file
+    path: data/profile.json
+    format: json
+    fields:
+      - name: name
+        label: Full Name
+        type: string
+      - name: title
+        label: Professional Title
+        type: string
+      - name: about
+        label: About Me
+        type: text
+      - name: email
+        label: Email
+        type: string
+      - name: location
+        label: Location
+        type: string
